@@ -16,7 +16,6 @@ import math
 import warnings
 import inspect
 
-
 if TYPE_CHECKING:
     from .graph_module import GraphModule  # noqa: F401
     from ._symbolic_trace import Tracer   # noqa: F401
